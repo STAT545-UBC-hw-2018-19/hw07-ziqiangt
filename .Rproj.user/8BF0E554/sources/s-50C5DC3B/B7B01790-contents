@@ -15,13 +15,16 @@
 x_read <- function(x_name, file_name = NA) {
   # write data frame using read_csv()
   return_results <- readr::read_csv(x_name)
+
   # check filename for levels
   if (is.na(file_name)) {
     # use dirname() to get path of filename
     file_name <- paste0(dirname(x_name), "/", "plain.txt")
   }
+
   # get levels from companion file
   LEVELS <- dget(file_name)
+
   # set levels of data frame
   for (i in seq_along(LEVELS)) {
     # first convert columns to factor
@@ -29,6 +32,7 @@ x_read <- function(x_name, file_name = NA) {
     # set levels
     levels(return_results[[names(LEVELS[i])]]) <- LEVELS[[i]]
   }
+
   # return data frame
   return(return_results)
 }

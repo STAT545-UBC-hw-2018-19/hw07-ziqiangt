@@ -23,16 +23,19 @@ x_write <- function(x, x_name, file_name = NA) {
   if (!is.data.frame(x)) {
     stop("This is not a data frame")
   }
+
   # write data frame
   readr::write_csv(x, x_name)
+
   # get names of columns of factors
   factor_cols <- names(Filter(is.factor, x))
+
   # check filename for levels
   if (is.na(file_name)) {
     # use dirname() to get path of filename
     file_name <- paste0(dirname(x_name), "/", "plain.txt")
   }
+
   # write levels to companion file
-  # use lapply() and levels() to get levels of factor columns
   dput(lapply(x[factor_cols], levels), file_name)
 }

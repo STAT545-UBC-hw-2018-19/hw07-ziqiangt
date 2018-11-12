@@ -123,12 +123,12 @@ f_set(factor(c("B", "A", "D")))
 set.seed(1234)
 df <- data.frame(
     a = 1,
-    b = 1:10,
-    x = sample(letters[1:3], size = 10, replace = TRUE)
+    b = 1:100,
+    x = sample(letters[1:5], size = 100, replace = TRUE)
   )
 
 levels(df$x)
-#> [1] "a" "b" "c"
+#> [1] "a" "b" "c" "d" "e"
 
 x_write(df, "./df_x.csv", "./df_x.txt")
 read_return <- x_read("./df_x.csv", "./df_x.txt")
@@ -139,7 +139,7 @@ read_return <- x_read("./df_x.csv", "./df_x.txt")
 #>   x = col_character()
 #> )
 levels(read_return$x)
-#> [1] "a" "b" "c"
+#> [1] "a" "b" "c" "d" "e"
 ```
 
 Here is powers package you might interested
