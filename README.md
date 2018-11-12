@@ -122,24 +122,21 @@ f_set(factor(c("B", "A", "D")))
 # De
 set.seed(1234)
 df <- data.frame(
-    a = 1,
-    b = 1:100,
-    x = sample(letters[1:5], size = 100, replace = TRUE)
+    kids = factor(c(1,0,1,0,0,0), levels = c(0, 1),
+    labels = c("boy", "girl"))
   )
 
-levels(df$x)
-#> [1] "a" "b" "c" "d" "e"
+levels(df$kids)
+#> [1] "boy"  "girl"
 
 x_write(df, "./df_x.csv", "./df_x.txt")
 read_return <- x_read("./df_x.csv", "./df_x.txt")
 #> Parsed with column specification:
 #> cols(
-#>   a = col_integer(),
-#>   b = col_integer(),
-#>   x = col_character()
+#>   kids = col_character()
 #> )
-levels(read_return$x)
-#> [1] "a" "b" "c" "d" "e"
+levels(read_return$kids)
+#> [1] "boy"  "girl"
 ```
 
 Here is powers package you might interested

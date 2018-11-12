@@ -99,16 +99,15 @@ f_set(factor(c("B", "A", "D")))
 # De
 set.seed(1234)
 df <- data.frame(
-    a = 1,
-    b = 1:100,
-    x = sample(letters[1:5], size = 100, replace = TRUE)
+    kids = factor(c(1,0,1,0,0,0), levels = c(0, 1),
+    labels = c("boy", "girl"))
   )
 
-levels(df$x)
+levels(df$kids)
 
 x_write(df, "./df_x.csv", "./df_x.txt")
 read_return <- x_read("./df_x.csv", "./df_x.txt")
-levels(read_return$x)
+levels(read_return$kids)
 ```
 
 ## Here is powers package you might interested

@@ -1,7 +1,7 @@
 #' @title
 #' Detect factors that should be character or not
 #' @description
-#'Detect factors that should be character because # unique values = length
+#' Detect factors that should be character because # unique values = length
 #' @usage
 #' f_detect(x)
 #' @param x
@@ -21,6 +21,6 @@ fdetect <- function(x) {
     stop("This is not a factor!")
   }
 
-  # return if the number of unique values NOT equals to the length of input
+  # return if the number of unique values equals to the length of input
   return(length(unique(x)) == length(x))
 }
