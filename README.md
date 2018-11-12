@@ -1,3 +1,22 @@
+hw07-ziqiangt
+-------------
+
+hw06-ziqiangt created by GitHub Classroom \#\# Hi, here is the STAT547 hw07 of ziqiang
+
+Overview
+--------
+
+This is to make some changes to an existing R package from **jennybc**. You can click **[Original foofactors](https://github.com/jennybc/foofactors/)** to view more details about this cource.
+
+My repository is structured as follows:
+
+| Documents                                                                                  | Description                              |
+|--------------------------------------------------------------------------------------------|------------------------------------------|
+| [README.md](https://github.com/STAT545-UBC-students/hw07-ziqiangt/blob/master/README.md)   | the markdown file for homework 7         |
+| [README.rmd](https://github.com/STAT545-UBC-students/hw07-ziqiangt/blob/master/README.Rmd) | the R-markdown file for homework 7       |
+| [R](https://github.com/STAT545-UBC-students/hw07-ziqiangt/tree/master/R)                   | the R Scripts for homework 7 package     |
+| Other                                                                                      | Other files such a .Rproj and .gitignore |
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 **NOTE: This is a toy package created for expository purposes. It is not meant to actually be useful. If you want a package for factor handling, please see [forcats](https://cran.r-project.org/package=forcats).**
 
@@ -68,3 +87,79 @@ freq_out(x)
 #> 4 d        17
 #> 5 e        15
 ```
+
+### detect factors that should be character because \# unique values = length
+
+``` r
+fdetect(factor(c("a", "b", "c","a")))
+#> [1] FALSE
+fdetect(factor(c("a", "b", "c","d")))
+#> [1] TRUE
+```
+
+### write a version of reorder() that uses desc() a la (d)plyr
+
+``` r
+f_reorder(factor(c("B", "A", "D")))
+#> [1] B A D
+#> attr(,"scores")
+#>  A  B  D 
+#> -1 -2 -3 
+#> Levels: D B A
+```
+
+### write a version of factor() that sets levels to the order in which they appear in the data, i.e. set the levels “as is”
+
+``` r
+f_set(factor(c("B", "A", "D")))
+#> [1] B A D
+#> Levels: B A D
+```
+
+### functions to write and read data frames to plain text delimited files while retaining factor levels; maybe by writing/reading a companion file?
+
+``` r
+# De
+set.seed(1234)
+df <- data.frame(
+    a = 1,
+    b = 1:10,
+    x = sample(letters[1:3], size = 10, replace = TRUE)
+  )
+
+levels(df$x)
+#> [1] "a" "b" "c"
+
+x_write(df, "./df_x.csv", "./df_x.txt")
+read_return <- x_read("./df_x.csv", "./df_x.txt")
+#> Parsed with column specification:
+#> cols(
+#>   a = col_integer(),
+#>   b = col_integer(),
+#>   x = col_character()
+#> )
+levels(read_return$x)
+#> [1] "a" "b" "c"
+```
+
+It's would be very kind if you could give me some **comments**.
+---------------------------------------------------------------
+
+**[homework06 Comments](https://github.com/STAT545-UBC-students/hw07-ziqiangt/issues)**
+
+Here is my previous homework if you are interested
+--------------------------------------------------
+
+-   You can click to go to my homework solutions
+    -   homework01
+        -   [homework01 solution](https://github.com/STAT545-UBC-students/hw01-ziqiangt)
+    -   homework02
+        -   [homework02 solution](https://github.com/STAT545-UBC-students/hw02-ziqiangt)
+    -   homework03
+        -   [homework03 solution](https://github.com/STAT545-UBC-students/hw03-ziqiangt)
+    -   homework04
+        -   [homework04 solution](https://github.com/STAT545-UBC-students/hw04-ziqiangt)
+-   homework05
+    -   [homework05 solution](https://github.com/STAT545-UBC-students/hw05-ziqiangt)
+-   homework06
+    -   [homework06 solution](https://github.com/STAT545-UBC-students/hw06-ziqiangt)

@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1541984357148.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3F120A47",
+    "lastKnownWriteTime" : 1541986799,
+    "last_content_update" : 1541986799581,
+    "path" : "~/Desktop/STAT545/hw07-ziqianbt/hw07-ziqiangt/R/f_detect.R",
+    "project_path" : "R/f_detect.R",
+    "properties" : {
+        "cursorPosition" : "20,4",
+        "scrollLine" : "10",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

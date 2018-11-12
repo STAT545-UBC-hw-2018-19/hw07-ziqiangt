@@ -1,3 +1,0 @@
-"0","library(foofactors)"
-"0","a <- factor(c(""character"", ""hits"", ""your"", ""eyeballs""))"
-"0","b <- factor(c(""but"", ""integer"", ""where it"", ""counts""))"

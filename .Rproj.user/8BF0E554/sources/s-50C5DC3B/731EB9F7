@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2828625973",
+    "hash" : "0",
     "id" : "731EB9F7",
-    "lastKnownWriteTime" : 1541966725,
-    "last_content_update" : 1541966761569,
+    "lastKnownWriteTime" : 1541989081,
+    "last_content_update" : 1541989081500,
     "path" : "~/Desktop/STAT545/hw07-ziqianbt/hw07-ziqiangt/README.Rmd",
     "project_path" : "README.Rmd",
     "properties" : {
-        "cursorPosition" : "28,79",
-        "scrollLine" : "25"
+        "cursorPosition" : "130,0",
+        "scrollLine" : "113"
     },
     "relative_order" : 1,
     "source_on_save" : false,

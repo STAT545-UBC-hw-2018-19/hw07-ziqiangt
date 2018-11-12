@@ -1,0 +1,16 @@
+#' @title Check whether an input is a factor or not
+#'
+#' @param a factor
+#'
+#' @return nothing
+#' An error is raised if the input is not a factor.
+#' @export
+#' @examples
+#' fcheck(x)
+
+fcheck <- function(x) {
+  # check if the input is a factor or not
+  if (!is.factor(x)) {
+    stop("Function requires a factor instead of a ", class(x)[1])
+  }
+}
