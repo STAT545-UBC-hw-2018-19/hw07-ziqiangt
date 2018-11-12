@@ -32,7 +32,7 @@ x_write <- function(x, x_name, file_name = NA) {
 
   # check filename for levels
   if (is.na(file_name)) {
-    # use dirname() to get path of filename
+    # get path of filename
     file_name <- paste0(dirname(x_name), "/", "plain.txt")
   }
 

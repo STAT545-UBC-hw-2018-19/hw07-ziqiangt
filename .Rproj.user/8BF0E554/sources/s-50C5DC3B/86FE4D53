@@ -2,18 +2,18 @@
     "collab_server" : "",
     "contents" : "",
     "created" : 1541986601800.000,
-    "dirty" : false,
+    "dirty" : true,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "0",
     "id" : "86FE4D53",
     "lastKnownWriteTime" : 1541989741,
-    "last_content_update" : 1541989741161,
+    "last_content_update" : 1541990094264,
     "path" : "~/Desktop/STAT545/hw07-ziqianbt/hw07-ziqiangt/R/write.R",
     "project_path" : "R/write.R",
     "properties" : {
         "cursorPosition" : "38,34",
-        "scrollLine" : "10"
+        "scrollLine" : "25"
     },
     "relative_order" : 5,
     "source_on_save" : false,

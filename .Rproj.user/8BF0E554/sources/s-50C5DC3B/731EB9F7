@@ -2,18 +2,18 @@
     "collab_server" : "",
     "contents" : "",
     "created" : 1541966734724.000,
-    "dirty" : false,
+    "dirty" : true,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1755163197",
+    "hash" : "0",
     "id" : "731EB9F7",
     "lastKnownWriteTime" : 1541989772,
-    "last_content_update" : 1541989772803,
+    "last_content_update" : 1542056627080,
     "path" : "~/Desktop/STAT545/hw07-ziqianbt/hw07-ziqiangt/README.Rmd",
     "project_path" : "README.Rmd",
     "properties" : {
-        "cursorPosition" : "103,26",
-        "scrollLine" : "93"
+        "cursorPosition" : "109,23",
+        "scrollLine" : "95"
     },
     "relative_order" : 1,
     "source_on_save" : false,
