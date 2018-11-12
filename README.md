@@ -142,10 +142,10 @@ levels(read_return$x)
 #> [1] "a" "b" "c"
 ```
 
-It's would be very kind if you could give me some **comments**.
----------------------------------------------------------------
+Here is powers package you might interested
+-------------------------------------------
 
-**[homework06 Comments](https://github.com/STAT545-UBC-students/hw07-ziqiangt/issues)**
+[powers](https://github.com/ziqiangt/STAT545_Participation/tree/master/STAT547/cm105/powers)
 
 Here is my previous homework if you are interested
 --------------------------------------------------
@@ -164,7 +164,7 @@ Here is my previous homework if you are interested
     -   homework06
         -   [homework06 solution](https://github.com/STAT545-UBC-students/hw06-ziqiangt)
 
-Here is powers package you might interested
--------------------------------------------
+It's would be very kind if you could give me some **comments**.
+---------------------------------------------------------------
 
-[powers](https://github.com/ziqiangt/STAT545_Participation/tree/master/STAT547/cm105/powers)
+**[homework07 Comments](https://github.com/STAT545-UBC-students/hw07-ziqiangt/issues)**

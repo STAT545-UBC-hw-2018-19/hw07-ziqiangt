@@ -111,8 +111,8 @@ read_return <- x_read("./df_x.csv", "./df_x.txt")
 levels(read_return$x)
 ```
 
-## It's would be very kind if you could give me some **comments**.
- **[homework06 Comments](https://github.com/STAT545-UBC-students/hw07-ziqiangt/issues)**
+## Here is powers package you might interested
+[powers](https://github.com/ziqiangt/STAT545_Participation/tree/master/STAT547/cm105/powers)
 
 ## Here is my previous homework if you are interested
 - You can click to go to my homework solutions
@@ -128,6 +128,7 @@ levels(read_return$x)
 		* [homework05 solution](https://github.com/STAT545-UBC-students/hw05-ziqiangt)
 	+ homework06
 		* [homework06 solution](https://github.com/STAT545-UBC-students/hw06-ziqiangt)
-    
-## Here is powers package you might interested
-[powers](https://github.com/ziqiangt/STAT545_Participation/tree/master/STAT547/cm105/powers)
+
+
+## It's would be very kind if you could give me some **comments**.
+ **[homework07 Comments](https://github.com/STAT545-UBC-students/hw07-ziqiangt/issues)**
