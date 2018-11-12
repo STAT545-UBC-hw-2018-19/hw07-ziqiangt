@@ -157,7 +157,8 @@ Here is my previous homework if you are interested
         -   [homework02 solution](https://github.com/STAT545-UBC-students/hw02-ziqiangt)
     -   homework03
         -   [homework03 solution](https://github.com/STAT545-UBC-students/hw03-ziqiangt)
--   homework04 \* [homework04 solution](https://github.com/STAT545-UBC-students/hw04-ziqiangt)
+    -   homework04
+        -   [homework04 solution](https://github.com/STAT545-UBC-students/hw04-ziqiangt)
     -   homework05
         -   [homework05 solution](https://github.com/STAT545-UBC-students/hw05-ziqiangt)
     -   homework06

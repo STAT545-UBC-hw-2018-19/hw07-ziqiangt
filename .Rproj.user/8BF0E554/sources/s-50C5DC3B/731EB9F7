@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "4093279224",
+    "hash" : "3947132257",
     "id" : "731EB9F7",
-    "lastKnownWriteTime" : 1541989410,
-    "last_content_update" : 1541989410070,
+    "lastKnownWriteTime" : 1541989489,
+    "last_content_update" : 1541989489220,
     "path" : "~/Desktop/STAT545/hw07-ziqianbt/hw07-ziqiangt/README.Rmd",
     "project_path" : "README.Rmd",
     "properties" : {
-        "cursorPosition" : "124,14",
+        "cursorPosition" : "125,70",
         "scrollLine" : "113"
     },
     "relative_order" : 1,
