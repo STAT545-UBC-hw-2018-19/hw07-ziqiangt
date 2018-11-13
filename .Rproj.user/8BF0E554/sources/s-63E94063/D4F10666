@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1542069989579.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D4F10666",
+    "lastKnownWriteTime" : 1542070287,
+    "last_content_update" : 1542070287303,
+    "path" : "~/Desktop/STAT545/hw07-ziqianbt/hw07-ziqiangt/tests/testthat/test_f_reorder.R",
+    "project_path" : "tests/testthat/test_f_reorder.R",
+    "properties" : {
+        "cursorPosition" : "19,0",
+        "scrollLine" : "3",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

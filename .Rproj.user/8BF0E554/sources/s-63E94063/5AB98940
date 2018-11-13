@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1542071019227.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4152521567",
+    "id" : "5AB98940",
+    "lastKnownWriteTime" : 1542071252,
+    "last_content_update" : 1542071252994,
+    "path" : "~/Desktop/STAT545/hw07-ziqianbt/hw07-ziqiangt/tests/testthat/test_read_write.R",
+    "project_path" : "tests/testthat/test_read_write.R",
+    "properties" : {
+        "cursorPosition" : "12,61",
+        "scrollLine" : "6",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

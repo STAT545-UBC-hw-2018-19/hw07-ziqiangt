@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1542068679173.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3748311907",
+    "id" : "A0D95A8C",
+    "lastKnownWriteTime" : 1542068863,
+    "last_content_update" : 1542068863285,
+    "path" : "~/Desktop/STAT545/hw07-ziqianbt/hw07-ziqiangt/vignettes/hello-foofactors.Rmd",
+    "project_path" : "vignettes/hello-foofactors.Rmd",
+    "properties" : {
+        "cursorPosition" : "80,3",
+        "scrollLine" : "63"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
