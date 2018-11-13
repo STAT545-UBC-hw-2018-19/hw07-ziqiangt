@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3748311907",
+    "hash" : "3296294671",
     "id" : "A0D95A8C",
-    "lastKnownWriteTime" : 1542068863,
-    "last_content_update" : 1542068863285,
+    "lastKnownWriteTime" : 1542076805,
+    "last_content_update" : 1542076805452,
     "path" : "~/Desktop/STAT545/hw07-ziqianbt/hw07-ziqiangt/vignettes/hello-foofactors.Rmd",
     "project_path" : "vignettes/hello-foofactors.Rmd",
     "properties" : {
-        "cursorPosition" : "80,3",
-        "scrollLine" : "63"
+        "cursorPosition" : "53,2",
+        "scrollLine" : "57"
     },
     "relative_order" : 2,
     "source_on_save" : false,

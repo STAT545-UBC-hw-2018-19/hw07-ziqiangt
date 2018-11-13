@@ -50,8 +50,8 @@ freq_out(x)
 
 ### detect factors that should be character because # unique values = length
 ```{r}
-fdetect(factor(c("a", "b", "c","a")))
-fdetect(factor(c("a", "b", "c","d")))
+f_detect(factor(c("a", "b", "c","a")))
+f_detect(factor(c("a", "b", "c","d")))
 ```
 
 ### write a version of reorder() that uses desc() a la (d)plyr
