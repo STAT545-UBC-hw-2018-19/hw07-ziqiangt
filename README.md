@@ -10,12 +10,14 @@ This is to make some changes to an existing R package from **jennybc**. You can 
 
 My repository is structured as follows:
 
-| Documents                                                                                  | Description                              |
-|--------------------------------------------------------------------------------------------|------------------------------------------|
-| [README.md](https://github.com/STAT545-UBC-students/hw07-ziqiangt/blob/master/README.md)   | the markdown file for homework 7         |
-| [README.rmd](https://github.com/STAT545-UBC-students/hw07-ziqiangt/blob/master/README.Rmd) | the R-markdown file for homework 7       |
-| [R](https://github.com/STAT545-UBC-students/hw07-ziqiangt/tree/master/R)                   | the R Scripts for homework 7 package     |
-| Other                                                                                      | Other files such a .Rproj and .gitignore |
+| Documents                                                                                                                | Description                              |
+|--------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
+| [README.md](https://github.com/STAT545-UBC-students/hw07-ziqiangt/blob/master/README.md)                                 | the markdown file for homework 7         |
+| [README.rmd](https://github.com/STAT545-UBC-students/hw07-ziqiangt/blob/master/README.Rmd)                               | the R-markdown file for homework 7       |
+| [R](https://github.com/STAT545-UBC-students/hw07-ziqiangt/tree/master/R)                                                 | the R Scripts for homework 7 package     |
+| [testthat examples](https://github.com/STAT545-UBC-students/hw07-ziqiangt/tree/master/tests/testthat)                    | test cases for the new functions         |
+| [hello-foofactors.Rmd](https://github.com/STAT545-UBC-students/hw07-ziqiangt/blob/master/vignettes/hello-foofactors.Rmd) | the vignettes R-markdown file            |
+| Other                                                                                                                    | Other files such a .Rproj and .gitignore |
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 **NOTE: This is a toy package created for expository purposes. It is not meant to actually be useful. If you want a package for factor handling, please see [forcats](https://cran.r-project.org/package=forcats).**
@@ -91,9 +93,9 @@ freq_out(x)
 ### detect factors that should be character because \# unique values = length
 
 ``` r
-fdetect(factor(c("a", "b", "c","a")))
+f_detect(factor(c("a", "b", "c","a")))
 #> [1] FALSE
-fdetect(factor(c("a", "b", "c","d")))
+f_detect(factor(c("a", "b", "c","d")))
 #> [1] TRUE
 ```
 
@@ -119,8 +121,6 @@ f_set(factor(c("B", "A", "D")))
 ### functions to write and read data frames to plain text delimited files while retaining factor levels; maybe by writing/reading a companion file?
 
 ``` r
-# De
-set.seed(1234)
 df <- data.frame(
     kids = factor(c(1,0,1,0,0,0), levels = c(0, 1),
     labels = c("boy", "girl"))

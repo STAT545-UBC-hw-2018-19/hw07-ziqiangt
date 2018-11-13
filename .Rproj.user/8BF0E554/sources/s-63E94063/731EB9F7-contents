@@ -17,6 +17,8 @@ My repository is structured as follows:
 | [README.md](https://github.com/STAT545-UBC-students/hw07-ziqiangt/blob/master/README.md)   | the markdown file for homework 7   |
 | [README.rmd](https://github.com/STAT545-UBC-students/hw07-ziqiangt/blob/master/README.Rmd) | the R-markdown file for homework 7   |
 | [R](https://github.com/STAT545-UBC-students/hw07-ziqiangt/tree/master/R)  | the R Scripts for homework 7 package   |
+| [testthat examples](https://github.com/STAT545-UBC-students/hw07-ziqiangt/tree/master/tests/testthat)  | test cases for the new functions  |
+| [hello-foofactors.Rmd](https://github.com/STAT545-UBC-students/hw07-ziqiangt/blob/master/vignettes/hello-foofactors.Rmd)  | the vignettes R-markdown file  |
 |Other | Other files such a .Rproj and .gitignore|
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
